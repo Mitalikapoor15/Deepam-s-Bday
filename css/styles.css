@@ -1,0 +1,248 @@
+/* @font-face {
+    font-family: 'Nougat-ExtraBlack';
+    src: url('../css/Nougat-ExtraBlack.ttf') format("truetype");
+}
+
+body{
+  /* text-align: center; */
+
+
+
+/* #bsbg1{
+  margin: 0;
+}
+#banner{
+
+
+}
+
+#headText{
+  position: relative;
+  bottom: 370px;
+  font-weight: 600;
+    border: 5px solid red;
+    padding: 35px;
+    top: 0;
+}
+
+#pennyPhoto{
+  border: 5px solid green;
+  position: relative;
+  top: 0;
+  padding: 0;
+}
+
+#pennyPic{
+
+  max-width: 100%;
+  height: 400px;
+  border: 5px solid red;
+
+
+}
+
+.banner-row{
+  background-image: url("images/bsbg1.png");
+  max-width: 100%;
+  height: 400px;
+  padding: 0;
+  margin: auto;
+
+  font-family: Nougat-ExtraBlack;
+  font-size: 20px;
+  font-weight: bold;
+  border: 5px solid green;
+  margin: 20px;
+}  */
+
+
+
+body{
+  /* overflow: hidden; */
+  /* background-image: url("https://i.pinimg.com/564x/dc/35/53/dc3553485540badceb5f59ee201a0c1c.jpg"); */
+font-family: 'Alfa Slab One', cursive;
+
+}
+
+.banner{
+  width: 450px;
+  height: 700px;
+  background-image: url("https://i.pinimg.com/564x/e4/6f/3f/e46f3ffd879d49b0fa161f29393a7ea1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+  border: 2px solid blue;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+h1{
+  font-size: 2rem;
+  padding: 30px;
+  text-align: center;
+  border: 2px solid red;
+
+}
+
+.btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 5px;
+  -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+  /* -webkit-box-shadow: 0px 6px 3px #e8bc1e;
+  -moz-box-shadow: 0px 6px 3px #e8bc1e; */
+  /* box-shadow: 0px 6px 3px #e8bc1e; */
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 10px;
+  background: #f5e905;
+  border: solid #000000 3px;
+  text-decoration: none;
+  text-align: center;
+  font-style: normal;
+  width: 180px;
+  height: 70px;
+  transform: skewX(-15deg);
+  padding: 0;
+}
+
+.btnText{
+  transform: skewX(15deg);
+}
+
+/* .btn:hover {
+  background: #f5f525;
+  width: 190px;
+  height: 80px;
+  text-decoration: none;
+} */
+
+.blink {
+        animation: blinker 1.3s linear infinite;
+
+
+
+        font-family: sans-serif;
+      }
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+
+
+.img{
+  /* background-image: url("https://i.pinimg.com/564x/f5/a1/a2/f5a1a219056e46e9895c7735d7331fd5.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 2px solid black; */
+  width: 100%;
+overflow: hidden;
+
+
+}
+
+.photo{
+  width:300px;
+}
+
+#jessie{
+  background-image: url("https://i.pinimg.com/564x/36/3c/d4/363cd482727511b82d802f7b5bb40852.jpg");
+text-align: right;
+}
+
+#lola{
+  background-image: url("https://i.pinimg.com/564x/f5/a1/a2/f5a1a219056e46e9895c7735d7331fd5.jpg");
+}
+
+#edgar{
+  background-image: url("https://i.pinimg.com/564x/dc/35/53/dc3553485540badceb5f59ee201a0c1c.jpg");
+text-align: right;}
+
+#emz{
+  background-image: url("https://i.pinimg.com/564x/f5/a1/a2/f5a1a219056e46e9895c7735d7331fd5.jpg");
+
+}
+
+#bo{
+background-image: url("https://i.pinimg.com/564x/dc/35/53/dc3553485540badceb5f59ee201a0c1c.jpg");
+text-align: right;
+}
+
+#mortis{
+  background-image: url("https://i.pinimg.com/236x/17/85/34/1785347fe1ff67051360befee1726768.jpg");
+}
+
+#penny{
+  background-image: url("https://i.pinimg.com/564x/43/fe/2f/43fe2ff6516218faad4831016c58d920.jpg");
+}
+
+/* .text-right{
+  display: inline-block;
+  text-align: right;
+  border: 2px solid red;
+  font-size: 2.1rem;
+}
+
+.text-left{
+  display: inline-block;
+  text-align: left;
+    font-size: 2.1rem;
+} */
+
+.emzPic{
+  width: 370px;
+  position: relative;
+  top: 20px;
+}
+.jessiePic{
+  width: 450px;
+  position: relative;
+  top: 35px;
+}
+.boPic{
+  width: 550px;
+  position: relative;
+bottom: 55px;
+}
+
+.edgarPic{
+  position: relative;
+  top: 46px;
+}
+
+.pennyPic{
+  width: 370px;
+  position: relative;
+}
+
+.lolaPic{
+  position: relative;
+  top: 100px;
+}
+
+.emzDiv{
+  height: 400px;
+}
+
+.boDiv{
+  height: 400px;
+}
+
+.lolaDiv{
+  height: 400px;
+
+}
+
+.pennyDiv{
+  height: 370px;
+}
+
+.boText{
+  position: relative;
+  bottom: 70px;
+}
